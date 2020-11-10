@@ -1,0 +1,17 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "repository": "https://github.com/tissueMO/electron-test.git",
+  "author": "tissueMO",
+  "license": "MIT",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "make": "electron-packager . --platform=win32 --arch=x64 --out ./build --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-packager": "^15.1.0",
+    "jquery": "^3.5.1"
+  }
+}
